@@ -1,17 +1,33 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Simple Form with Google Forms Backend</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Form Title</title>
+    <!-- Add your CSS styling here -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4; /* Change background color to match your form */
+        }
+        .form-container {
+            margin: auto;
+            padding: 20px;
+            background-color: #ffffff; /* Change background color to match your form */
+            border-radius: 8px;
+            width: 80%;
+            max-width: 600px;
+        }
+    </style>
 </head>
 <body>
 
-<h1>Simple Form</h1>
-
-<form action="https://docs.google.com/forms/d/e/1FAIpQLSe5nZmCzJWd3RcjozTZ--1xuy9L3XxyCBcKRykqMzcWLCF0xg/formResponse" method="post" target="_self">
-  <label for="entry.1852956824">Enter Information:</label>
-  <input type="text" id="entry.1852956824" name="entry.1852956824">
-  <input type="submit" value="Submit">
-</form>
+<div class="form-container">
+    <!-- Embed your Google Form here -->
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe5nZmCzJWd3RcjozTZ--1xuy9L3XxyCBcKRykqMzcWLCF0xg/viewform?embedded=true" width="640" height="829" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+</div>
 
 </body>
 </html>
